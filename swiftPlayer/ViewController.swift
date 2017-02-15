@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import FFmpeg
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        av_register_all()
+        avformat_network_init()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "13D57FA90A1F431ADACC9498A16BC762460EB528",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "13D57FA90A1F431ADACC9498A16BC762460EB528" : 9223372036854775807,
+    "1BF19058C9B814F8BA3C3075BCECA7739FE75020" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3A148F52-9836-4FA9-B8B3-576FB9972484",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "13D57FA90A1F431ADACC9498A16BC762460EB528" : "swiftPlayer\/",
+    "1BF19058C9B814F8BA3C3075BCECA7739FE75020" : "swiftPlayer\/FFmpeg-iOS-build-script\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "swiftPlayer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swiftPlayer.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mycisco\/swiftPlayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13D57FA90A1F431ADACC9498A16BC762460EB528"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kewlbear\/FFmpeg-iOS-build-script.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BF19058C9B814F8BA3C3075BCECA7739FE75020"
+    }
+  ]
+}

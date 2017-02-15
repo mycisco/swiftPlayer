@@ -12,6 +12,20 @@
 		A5652B811E5337840087B2C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5652B7F1E5337840087B2C0 /* Main.storyboard */; };
 		A5652B831E5337850087B2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5652B821E5337850087B2C0 /* Assets.xcassets */; };
 		A5652B861E5337850087B2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5652B841E5337850087B2C0 /* LaunchScreen.storyboard */; };
+		CB70C0551E53FB4400AE1DC1 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */; };
+		CB70C0561E53FB4400AE1DC1 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */; };
+		CB70C0571E53FB4400AE1DC1 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0501E53FB4400AE1DC1 /* libavfilter.a */; };
+		CB70C0581E53FB4400AE1DC1 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0511E53FB4400AE1DC1 /* libavformat.a */; };
+		CB70C0591E53FB4400AE1DC1 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0521E53FB4400AE1DC1 /* libavutil.a */; };
+		CB70C05A1E53FB4400AE1DC1 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0531E53FB4400AE1DC1 /* libswresample.a */; };
+		CB70C05B1E53FB4400AE1DC1 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0541E53FB4400AE1DC1 /* libswscale.a */; };
+		CB70C05D1E53FB4E00AE1DC1 /* include in Resources */ = {isa = PBXBuildFile; fileRef = CB70C05C1E53FB4E00AE1DC1 /* include */; };
+		CB70C0621E53FBFA00AE1DC1 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0611E53FBFA00AE1DC1 /* VideoToolbox.framework */; };
+		CB70C0641E53FCFA00AE1DC1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0631E53FCFA00AE1DC1 /* libz.tbd */; };
+		CB70C0661E53FD0400AE1DC1 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0651E53FD0400AE1DC1 /* libbz2.tbd */; };
+		CB70C0681E53FD0C00AE1DC1 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0671E53FD0C00AE1DC1 /* libiconv.tbd */; };
+		CB70C06A1E53FD2B00AE1DC1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0691E53FD2B00AE1DC1 /* CoreMedia.framework */; };
+		CB70C06C1E53FD3400AE1DC1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C06B1E53FD3400AE1DC1 /* AudioToolbox.framework */; };
 		E5FB847D66032FF3CF6561A5 /* Pods_swiftPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261B640428F3B4947B54779A /* Pods_swiftPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +38,23 @@
 		A5652B821E5337850087B2C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5652B851E5337850087B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5652B871E5337850087B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB70C04B1E53FA3900AE1DC1 /* FFmpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFmpeg.h; sourceTree = "<group>"; };
+		CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavcodec.a"; sourceTree = "<group>"; };
+		CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavdevice.a"; sourceTree = "<group>"; };
+		CB70C0501E53FB4400AE1DC1 /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavfilter.a"; sourceTree = "<group>"; };
+		CB70C0511E53FB4400AE1DC1 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavformat.a"; sourceTree = "<group>"; };
+		CB70C0521E53FB4400AE1DC1 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavutil.a"; sourceTree = "<group>"; };
+		CB70C0531E53FB4400AE1DC1 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libswresample.a"; sourceTree = "<group>"; };
+		CB70C0541E53FB4400AE1DC1 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libswscale.a"; sourceTree = "<group>"; };
+		CB70C05C1E53FB4E00AE1DC1 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/include"; sourceTree = SOURCE_ROOT; };
+		CB70C05E1E53FBC600AE1DC1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CB70C0611E53FBFA00AE1DC1 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		CB70C0631E53FCFA00AE1DC1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CB70C0651E53FD0400AE1DC1 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		CB70C0671E53FD0C00AE1DC1 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		CB70C0691E53FD2B00AE1DC1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CB70C06B1E53FD3400AE1DC1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CB70C06D1E53FD5D00AE1DC1 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		D320EAC4561311EF911D0FF5 /* Pods-swiftPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		E945D9F1644821C07EAF1315 /* Pods-swiftPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,7 +64,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB70C06C1E53FD3400AE1DC1 /* AudioToolbox.framework in Frameworks */,
+				CB70C06A1E53FD2B00AE1DC1 /* CoreMedia.framework in Frameworks */,
+				CB70C0681E53FD0C00AE1DC1 /* libiconv.tbd in Frameworks */,
+				CB70C0661E53FD0400AE1DC1 /* libbz2.tbd in Frameworks */,
+				CB70C0641E53FCFA00AE1DC1 /* libz.tbd in Frameworks */,
+				CB70C0621E53FBFA00AE1DC1 /* VideoToolbox.framework in Frameworks */,
 				E5FB847D66032FF3CF6561A5 /* Pods_swiftPlayer.framework in Frameworks */,
+				CB70C0551E53FB4400AE1DC1 /* libavcodec.a in Frameworks */,
+				CB70C0561E53FB4400AE1DC1 /* libavdevice.a in Frameworks */,
+				CB70C0571E53FB4400AE1DC1 /* libavfilter.a in Frameworks */,
+				CB70C0581E53FB4400AE1DC1 /* libavformat.a in Frameworks */,
+				CB70C0591E53FB4400AE1DC1 /* libavutil.a in Frameworks */,
+				CB70C05A1E53FB4400AE1DC1 /* libswresample.a in Frameworks */,
+				CB70C05B1E53FB4400AE1DC1 /* libswscale.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +87,20 @@
 		300865855275F63A9D6C54FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB70C06B1E53FD3400AE1DC1 /* AudioToolbox.framework */,
+				CB70C0691E53FD2B00AE1DC1 /* CoreMedia.framework */,
+				CB70C0671E53FD0C00AE1DC1 /* libiconv.tbd */,
+				CB70C0651E53FD0400AE1DC1 /* libbz2.tbd */,
+				CB70C0631E53FCFA00AE1DC1 /* libz.tbd */,
+				CB70C0611E53FBFA00AE1DC1 /* VideoToolbox.framework */,
+				CB70C05E1E53FBC600AE1DC1 /* CoreVideo.framework */,
+				CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */,
+				CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */,
+				CB70C0501E53FB4400AE1DC1 /* libavfilter.a */,
+				CB70C0511E53FB4400AE1DC1 /* libavformat.a */,
+				CB70C0521E53FB4400AE1DC1 /* libavutil.a */,
+				CB70C0531E53FB4400AE1DC1 /* libswresample.a */,
+				CB70C0541E53FB4400AE1DC1 /* libswscale.a */,
 				261B640428F3B4947B54779A /* Pods_swiftPlayer.framework */,
 			);
 			name = Frameworks;
@@ -78,6 +136,7 @@
 		A5652B7A1E5337830087B2C0 /* swiftPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				CB70C0491E53F91100AE1DC1 /* PlayerModule */,
 				A5652B7B1E5337830087B2C0 /* AppDelegate.swift */,
 				A5652B7D1E5337840087B2C0 /* ViewController.swift */,
 				A5652B7F1E5337840087B2C0 /* Main.storyboard */,
@@ -86,6 +145,16 @@
 				A5652B871E5337850087B2C0 /* Info.plist */,
 			);
 			path = swiftPlayer;
+			sourceTree = "<group>";
+		};
+		CB70C0491E53F91100AE1DC1 /* PlayerModule */ = {
+			isa = PBXGroup;
+			children = (
+				CB70C05C1E53FB4E00AE1DC1 /* include */,
+				CB70C04B1E53FA3900AE1DC1 /* FFmpeg.h */,
+				CB70C06D1E53FD5D00AE1DC1 /* module.map */,
+			);
+			name = PlayerModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +223,7 @@
 				A5652B861E5337850087B2C0 /* LaunchScreen.storyboard in Resources */,
 				A5652B831E5337850087B2C0 /* Assets.xcassets in Resources */,
 				A5652B811E5337840087B2C0 /* Main.storyboard in Resources */,
+				CB70C05D1E53FB4E00AE1DC1 /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,10 +408,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R39434X7J7;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/include";
 				INFOPLIST_FILE = swiftPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycisco.swiftPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/swiftPlayer";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -352,10 +425,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R39434X7J7;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/include";
 				INFOPLIST_FILE = swiftPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycisco.swiftPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/swiftPlayer";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -379,6 +455,7 @@
 				A5652B8C1E5337850087B2C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
