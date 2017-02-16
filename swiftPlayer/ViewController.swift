@@ -13,9 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        av_register_all()
-        avformat_network_init()
         
+        ffmpegInit()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -25,5 +24,29 @@ class ViewController: UIViewController {
     }
 
 
+    var formatContext: UnsafeMutablePointer<AVFormatContext>?
+    func ffmpegInit() {
+        
+        av_register_all()
+        avformat_network_init()
+        
+        let path: String = "http://www.ithinknext.com/mydata/board/files/F201308021823010.mp4"
+        guard av_success_desc(avformat_open_input(&formatContext, path, nil, nil), "open failed") else {
+            return
+        }
+        
+        guard av_success_desc(avformat_find_stream_info(formatContext, nil), "find stream info") else {
+            return
+        }
+        
+        av_dump_format(formatContext, -1, path, 0)
+        
+//        if let vidoes = formatContext?.pointee.str
+    }
 }
 
+
+//// Extension
+//extension AVFormatContext {
+//    mutating func streamArray(_ type: AVMediaType) -> []
+//}
