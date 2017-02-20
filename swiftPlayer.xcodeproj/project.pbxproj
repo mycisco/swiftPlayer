@@ -12,6 +12,9 @@
 		A5652B811E5337840087B2C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5652B7F1E5337840087B2C0 /* Main.storyboard */; };
 		A5652B831E5337850087B2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5652B821E5337850087B2C0 /* Assets.xcassets */; };
 		A5652B861E5337850087B2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5652B841E5337850087B2C0 /* LaunchScreen.storyboard */; };
+		A57D6CB51E589305002D275B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D6CB41E589305002D275B /* Metal.framework */; };
+		A57D6CB81E59D380002D275B /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D6CB71E59D380002D275B /* DataContainer.swift */; };
+		A57D6CBA1E59EA52002D275B /* MediaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D6CB91E59EA52002D275B /* MediaHelper.swift */; };
 		CB70C0551E53FB4400AE1DC1 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */; };
 		CB70C0561E53FB4400AE1DC1 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */; };
 		CB70C0571E53FB4400AE1DC1 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0501E53FB4400AE1DC1 /* libavfilter.a */; };
@@ -42,6 +45,9 @@
 		A5652B821E5337850087B2C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5652B851E5337850087B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5652B871E5337850087B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57D6CB41E589305002D275B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		A57D6CB71E59D380002D275B /* DataContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataContainer.swift; path = PlayerModule/DataContainer.swift; sourceTree = "<group>"; };
+		A57D6CB91E59EA52002D275B /* MediaHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaHelper.swift; path = PlayerModule/MediaHelper.swift; sourceTree = "<group>"; };
 		CB70C04B1E53FA3900AE1DC1 /* FFmpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFmpeg.h; sourceTree = "<group>"; };
 		CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavcodec.a"; sourceTree = "<group>"; };
 		CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavdevice.a"; sourceTree = "<group>"; };
@@ -72,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57D6CB51E589305002D275B /* Metal.framework in Frameworks */,
 				CB70C06C1E53FD3400AE1DC1 /* AudioToolbox.framework in Frameworks */,
 				CB70C06A1E53FD2B00AE1DC1 /* CoreMedia.framework in Frameworks */,
 				CB70C0681E53FD0C00AE1DC1 /* libiconv.tbd in Frameworks */,
@@ -95,6 +102,7 @@
 		300865855275F63A9D6C54FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A57D6CB41E589305002D275B /* Metal.framework */,
 				CB70C06B1E53FD3400AE1DC1 /* AudioToolbox.framework */,
 				CB70C0691E53FD2B00AE1DC1 /* CoreMedia.framework */,
 				CB70C0671E53FD0C00AE1DC1 /* libiconv.tbd */,
@@ -165,6 +173,8 @@
 				CB70C0701E54427200AE1DC1 /* Player.swift */,
 				CB70C0721E5444F400AE1DC1 /* SweetFormat.swift */,
 				CB70C0741E5447ED00AE1DC1 /* SweetStream.swift */,
+				A57D6CB71E59D380002D275B /* DataContainer.swift */,
+				A57D6CB91E59EA52002D275B /* MediaHelper.swift */,
 			);
 			name = PlayerModule;
 			sourceTree = "<group>";
@@ -296,7 +306,9 @@
 			files = (
 				CB70C0711E54427200AE1DC1 /* Player.swift in Sources */,
 				A5652B7E1E5337840087B2C0 /* ViewController.swift in Sources */,
+				A57D6CB81E59D380002D275B /* DataContainer.swift in Sources */,
 				CB70C0751E5447ED00AE1DC1 /* SweetStream.swift in Sources */,
+				A57D6CBA1E59EA52002D275B /* MediaHelper.swift in Sources */,
 				A5652B7C1E5337830087B2C0 /* AppDelegate.swift in Sources */,
 				CB70C06F1E53FF4200AE1DC1 /* FFmpegHelper.swift in Sources */,
 				CB70C0731E5444F400AE1DC1 /* SweetFormat.swift in Sources */,

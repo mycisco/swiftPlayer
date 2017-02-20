@@ -29,6 +29,8 @@ class SweetFormat: CustomDebugStringConvertible {
     
     var formatContext: UnsafeMutablePointer<AVFormatContext>?
     var path: String = ""
+//    fileprivate(set) var streamByType: [AVMediaType: [SweetStream]] = [AVMediaType: [SweetStream]]()
+//    fileprivate(set) var streamsByType: [AVMediaType: [SweetStream]] = [AVMediaType:[SweetStream]]()
     
     init?() {
         

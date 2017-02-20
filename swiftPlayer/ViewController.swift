@@ -7,46 +7,54 @@
 //
 
 import UIKit
-import FFmpeg
+import Metal
+import MetalKit
+import QuartzCore
+//import FFmpeg
+
+/*
+ 
+ Create a MTLDevice
+ Create a CAMetalLayer
+ Create a Vertex Buffer
+ Create a Vertex Shader
+ Create a Fragment Shader
+ Create a Render Pipeline
+ Create a Command Queue
+ 
+ */
+
+
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet var mtkView: MTKView!
+    var player: Player?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ffmpegInit()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let test = 10 ..< 20
+        
+        debugPrint(test.min())
+        
+        
+        let path = "http://www.ithinknext.com/mydata/board/files/F201308021823010.mp4"
+//        guard  _ player = Player(path: path) else {
+//            return
+//        }
+        
+//        
+//        self.player = player
+//        
+//        guard let video = self.player?.v
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-    var formatContext: UnsafeMutablePointer<AVFormatContext>?
-    func ffmpegInit() {
         
-        av_register_all()
-        avformat_network_init()
-        
-        let path: String = "http://www.ithinknext.com/mydata/board/files/F201308021823010.mp4"
-        guard av_success_desc(avformat_open_input(&formatContext, path, nil, nil), "open failed") else {
-            return
-        }
-        
-        guard av_success_desc(avformat_find_stream_info(formatContext, nil), "find stream info") else {
-            return
-        }
-        
-        av_dump_format(formatContext, -1, path, 0)
-        
-//        if let vidoes = formatContext?.pointee.str
     }
 }
-
-
-//// Extension
-//extension AVFormatContext {
-//    mutating func streamArray(_ type: AVMediaType) -> []
-//}

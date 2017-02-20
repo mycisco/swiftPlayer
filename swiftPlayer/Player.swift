@@ -7,21 +7,36 @@
 //
 
 import Foundation
+import Metal
+import FFmpeg
+
 
 
 public class Player: CustomDebugStringConvertible {
-    
     public var debugDescription: String {
-     
+        
         return ""
     }
     
-    init(path: String) {
-        
-    }
     
-//    
-//    let path: String?
-//    let format: SweetFormat?
+    let path: String
+    let format: SweetFormat
+//    var progressHandle: PlayerPr
+    
+    public init?(path: String) {
+        
+        self.path = path
+        av_register_all()
+        avformat_network_init()
+        
+        guard let format = SweetFormat() else {
+            return nil
+        }
+        
+        self.format = format
+//
+
+    }
+
     
 }

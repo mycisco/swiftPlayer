@@ -104,7 +104,7 @@ public class SweetStream: CustomDebugStringConvertible {
         
         self.codec = avcodec_alloc_context3(c)
         
-        guard av_success_desc(avcodec_pa, <#T##desc: String##String#>)
+//        guard av_success_desc(avcodec_pa, <#T##desc: String##String#>)
         
         
         debugPrint("open stream -> \(self)")
