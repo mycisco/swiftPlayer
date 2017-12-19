@@ -36,12 +36,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        let test = 10 ..< 20
-        
-        debugPrint(test.min())
-        
-        
         let path = "http://www.ithinknext.com/mydata/board/files/F201308021823010.mp4"
+        self.player = Player(path: path)
 //        guard  _ player = Player(path: path) else {
 //            return
 //        }
