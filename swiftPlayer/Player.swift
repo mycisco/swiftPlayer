@@ -23,11 +23,18 @@ public class Player: CustomDebugStringConvertible {
         av_register_all()
         avformat_network_init()
 
+        
+        /*
+         avformat_open_input : 파일의 헤더를 분석하여 파일 형식에 대한 정보를 AVFormatContext 구조체에 기록 할 수 있습니다.
+         NULL 으로 설정하면, libavformat 에서 자동으로 감지
+         */
         guard av_success_desc(avformat_open_input(&self.formatContext, path, nil, nil), "open failed -> \(path)") else {
             return nil
         }
         
-        // 1. avformat_find_stream_info 로 찾기
+        /*
+         avformat_find_stream_info : pFormatCtx->stream 정보를 기록, 내용을 확인 하려면 dump_format 사용
+         */
         guard av_success_desc(avformat_find_stream_info(self.formatContext, nil), "find stream info") else {
             return nil
         }
