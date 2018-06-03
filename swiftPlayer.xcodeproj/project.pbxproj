@@ -22,7 +22,6 @@
 		CB70C0591E53FB4400AE1DC1 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0521E53FB4400AE1DC1 /* libavutil.a */; };
 		CB70C05A1E53FB4400AE1DC1 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0531E53FB4400AE1DC1 /* libswresample.a */; };
 		CB70C05B1E53FB4400AE1DC1 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0541E53FB4400AE1DC1 /* libswscale.a */; };
-		CB70C05D1E53FB4E00AE1DC1 /* include in Resources */ = {isa = PBXBuildFile; fileRef = CB70C05C1E53FB4E00AE1DC1 /* include */; };
 		CB70C0621E53FBFA00AE1DC1 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0611E53FBFA00AE1DC1 /* VideoToolbox.framework */; };
 		CB70C0641E53FCFA00AE1DC1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0631E53FCFA00AE1DC1 /* libz.tbd */; };
 		CB70C0661E53FD0400AE1DC1 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0651E53FD0400AE1DC1 /* libbz2.tbd */; };
@@ -56,7 +55,6 @@
 		CB70C0521E53FB4400AE1DC1 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavutil.a"; sourceTree = "<group>"; };
 		CB70C0531E53FB4400AE1DC1 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libswresample.a"; sourceTree = "<group>"; };
 		CB70C0541E53FB4400AE1DC1 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libswscale.a"; sourceTree = "<group>"; };
-		CB70C05C1E53FB4E00AE1DC1 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/include"; sourceTree = SOURCE_ROOT; };
 		CB70C05E1E53FBC600AE1DC1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		CB70C0611E53FBFA00AE1DC1 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		CB70C0631E53FCFA00AE1DC1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -166,7 +164,6 @@
 		CB70C0491E53F91100AE1DC1 /* PlayerModule */ = {
 			isa = PBXGroup;
 			children = (
-				CB70C05C1E53FB4E00AE1DC1 /* include */,
 				CB70C04B1E53FA3900AE1DC1 /* FFmpeg.h */,
 				CB70C06D1E53FD5D00AE1DC1 /* module.map */,
 				CB70C06E1E53FF4200AE1DC1 /* FFmpegHelper.swift */,
@@ -190,8 +187,6 @@
 				A5652B741E5337830087B2C0 /* Sources */,
 				A5652B751E5337830087B2C0 /* Frameworks */,
 				A5652B761E5337830087B2C0 /* Resources */,
-				241E12787C43CFB983EB5254 /* [CP] Embed Pods Frameworks */,
-				C2D3F88A0428C12CC0333815 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,56 +240,28 @@
 				A5652B861E5337850087B2C0 /* LaunchScreen.storyboard in Resources */,
 				A5652B831E5337850087B2C0 /* Assets.xcassets in Resources */,
 				A5652B811E5337840087B2C0 /* Main.storyboard in Resources */,
-				CB70C05D1E53FB4E00AE1DC1 /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		241E12787C43CFB983EB5254 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3071A0AEE1DBE55DD0A78D91 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftPlayer-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C2D3F88A0428C12CC0333815 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
