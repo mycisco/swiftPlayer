@@ -14,6 +14,5 @@
 #import <libavfilter/avfiltergraph.h>
 #import <libavfilter/buffersrc.h>
 #import <libavfilter/buffersink.h>
-#import "FFmpegHelper.h"
 
 #endif /* FFmpeg_h */
