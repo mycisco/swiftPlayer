@@ -10,7 +10,7 @@ import UIKit
 import Metal
 import MetalKit
 import QuartzCore
-//import FFmpeg
+import FFmpeg
 
 /*
  
@@ -30,14 +30,17 @@ class ViewController: UIViewController {
 
     
     @IBOutlet var mtkView: MTKView!
-    var player: Player?
+//    var player: Player?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        var formatContext = UnsafeMutablePointer<AVFormatContext>()
         
         let path = "http://www.ithinknext.com/mydata/board/files/F201308021823010.mp4"
-        self.player = Player(path: path)
+//        let sf = SweetFormat.init(path: path)
+//        debugPrint(sf.debugDescription)
+//        self.player = Player(path: path)
 //        guard  _ player = Player(path: path) else {
 //            return
 //        }

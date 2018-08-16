@@ -13,8 +13,7 @@
 		A5652B831E5337850087B2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5652B821E5337850087B2C0 /* Assets.xcassets */; };
 		A5652B861E5337850087B2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5652B841E5337850087B2C0 /* LaunchScreen.storyboard */; };
 		A57D6CB51E589305002D275B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D6CB41E589305002D275B /* Metal.framework */; };
-		A57D6CB81E59D380002D275B /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D6CB71E59D380002D275B /* DataContainer.swift */; };
-		A57D6CBA1E59EA52002D275B /* MediaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D6CB91E59EA52002D275B /* MediaHelper.swift */; };
+		CB0C65E31FF3489100CBDAC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C65E21FF3489100CBDAC4 /* Foundation.framework */; };
 		CB70C0551E53FB4400AE1DC1 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */; };
 		CB70C0561E53FB4400AE1DC1 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */; };
 		CB70C0571E53FB4400AE1DC1 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0501E53FB4400AE1DC1 /* libavfilter.a */; };
@@ -29,10 +28,6 @@
 		CB70C0681E53FD0C00AE1DC1 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0671E53FD0C00AE1DC1 /* libiconv.tbd */; };
 		CB70C06A1E53FD2B00AE1DC1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C0691E53FD2B00AE1DC1 /* CoreMedia.framework */; };
 		CB70C06C1E53FD3400AE1DC1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C06B1E53FD3400AE1DC1 /* AudioToolbox.framework */; };
-		CB70C06F1E53FF4200AE1DC1 /* FFmpegHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70C06E1E53FF4200AE1DC1 /* FFmpegHelper.swift */; };
-		CB70C0711E54427200AE1DC1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70C0701E54427200AE1DC1 /* Player.swift */; };
-		CB70C0731E5444F400AE1DC1 /* SweetFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70C0721E5444F400AE1DC1 /* SweetFormat.swift */; };
-		CB70C0751E5447ED00AE1DC1 /* SweetStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70C0741E5447ED00AE1DC1 /* SweetStream.swift */; };
 		E5FB847D66032FF3CF6561A5 /* Pods_swiftPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261B640428F3B4947B54779A /* Pods_swiftPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +41,7 @@
 		A5652B851E5337850087B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5652B871E5337850087B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57D6CB41E589305002D275B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
-		A57D6CB71E59D380002D275B /* DataContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataContainer.swift; path = PlayerModule/DataContainer.swift; sourceTree = "<group>"; };
-		A57D6CB91E59EA52002D275B /* MediaHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaHelper.swift; path = PlayerModule/MediaHelper.swift; sourceTree = "<group>"; };
+		CB0C65E21FF3489100CBDAC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB70C04B1E53FA3900AE1DC1 /* FFmpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFmpeg.h; sourceTree = "<group>"; };
 		CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavcodec.a"; sourceTree = "<group>"; };
 		CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavdevice.a"; sourceTree = "<group>"; };
@@ -65,10 +59,6 @@
 		CB70C0691E53FD2B00AE1DC1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		CB70C06B1E53FD3400AE1DC1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CB70C06D1E53FD5D00AE1DC1 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
-		CB70C06E1E53FF4200AE1DC1 /* FFmpegHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FFmpegHelper.swift; path = PlayerModule/FFmpegHelper.swift; sourceTree = "<group>"; };
-		CB70C0701E54427200AE1DC1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		CB70C0721E5444F400AE1DC1 /* SweetFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SweetFormat.swift; path = PlayerModule/SweetFormat.swift; sourceTree = "<group>"; };
-		CB70C0741E5447ED00AE1DC1 /* SweetStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SweetStream.swift; path = PlayerModule/SweetStream.swift; sourceTree = "<group>"; };
 		D320EAC4561311EF911D0FF5 /* Pods-swiftPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		E945D9F1644821C07EAF1315 /* Pods-swiftPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0C65E31FF3489100CBDAC4 /* Foundation.framework in Frameworks */,
 				A57D6CB51E589305002D275B /* Metal.framework in Frameworks */,
 				CB70C06C1E53FD3400AE1DC1 /* AudioToolbox.framework in Frameworks */,
 				CB70C06A1E53FD2B00AE1DC1 /* CoreMedia.framework in Frameworks */,
@@ -102,6 +93,7 @@
 		300865855275F63A9D6C54FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB0C65E21FF3489100CBDAC4 /* Foundation.framework */,
 				A57D6CB41E589305002D275B /* Metal.framework */,
 				CB70C06B1E53FD3400AE1DC1 /* AudioToolbox.framework */,
 				CB70C0691E53FD2B00AE1DC1 /* CoreMedia.framework */,
@@ -169,12 +161,6 @@
 				CB70C05C1E53FB4E00AE1DC1 /* include */,
 				CB70C04B1E53FA3900AE1DC1 /* FFmpeg.h */,
 				CB70C06D1E53FD5D00AE1DC1 /* module.map */,
-				CB70C06E1E53FF4200AE1DC1 /* FFmpegHelper.swift */,
-				CB70C0701E54427200AE1DC1 /* Player.swift */,
-				CB70C0721E5444F400AE1DC1 /* SweetFormat.swift */,
-				CB70C0741E5447ED00AE1DC1 /* SweetStream.swift */,
-				A57D6CB71E59D380002D275B /* DataContainer.swift */,
-				A57D6CB91E59EA52002D275B /* MediaHelper.swift */,
 			);
 			name = PlayerModule;
 			sourceTree = "<group>";
@@ -215,6 +201,7 @@
 					A5652B771E5337830087B2C0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = R39434X7J7;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -304,14 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB70C0711E54427200AE1DC1 /* Player.swift in Sources */,
 				A5652B7E1E5337840087B2C0 /* ViewController.swift in Sources */,
-				A57D6CB81E59D380002D275B /* DataContainer.swift in Sources */,
-				CB70C0751E5447ED00AE1DC1 /* SweetStream.swift in Sources */,
-				A57D6CBA1E59EA52002D275B /* MediaHelper.swift in Sources */,
 				A5652B7C1E5337830087B2C0 /* AppDelegate.swift in Sources */,
-				CB70C06F1E53FF4200AE1DC1 /* FFmpegHelper.swift in Sources */,
-				CB70C0731E5444F400AE1DC1 /* SweetFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +416,7 @@
 			baseConfigurationReference = D320EAC4561311EF911D0FF5 /* Pods-swiftPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R39434X7J7;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/include";
 				INFOPLIST_FILE = swiftPlayer/Info.plist;
@@ -443,6 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycisco.swiftPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/swiftPlayer";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -452,6 +435,7 @@
 			baseConfigurationReference = E945D9F1644821C07EAF1315 /* Pods-swiftPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R39434X7J7;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/include";
 				INFOPLIST_FILE = swiftPlayer/Info.plist;
