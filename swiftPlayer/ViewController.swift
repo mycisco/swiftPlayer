@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        avcodec_license()
+        
         let path = "http://www.ithinknext.com/mydata/board/files/F201308021823010.mp4"
     }
 

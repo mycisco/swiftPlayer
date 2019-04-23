@@ -401,16 +401,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R39434X7J7;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/FFmpeg-iOS-build-script/thin/arm64/include",
-					"$(PROJECT_DIR)/FFmpeg-iOS-build-script/thin/armv7/include",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/include";
 				INFOPLIST_FILE = swiftPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/FFmpeg-iOS-build-script/thin/armv7/lib",
-					"$(PROJECT_DIR)/FFmpeg-iOS-build-script/thin/arm64/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycisco.swiftPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/swiftPlayer";
@@ -426,16 +420,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R39434X7J7;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/FFmpeg-iOS-build-script/thin/arm64/include",
-					"$(PROJECT_DIR)/FFmpeg-iOS-build-script/thin/armv7/include",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/include";
 				INFOPLIST_FILE = swiftPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/FFmpeg-iOS-build-script/thin/armv7/lib",
-					"$(PROJECT_DIR)/FFmpeg-iOS-build-script/thin/arm64/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycisco.swiftPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/swiftPlayer";
