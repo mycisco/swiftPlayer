@@ -13,6 +13,7 @@
 		A5652B831E5337850087B2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5652B821E5337850087B2C0 /* Assets.xcassets */; };
 		A5652B861E5337850087B2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5652B841E5337850087B2C0 /* LaunchScreen.storyboard */; };
 		A57D6CB51E589305002D275B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D6CB41E589305002D275B /* Metal.framework */; };
+		A57FF99A2293BD3E0068155E /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57FF9992293BD3E0068155E /* GPUImage.framework */; };
 		CB0C65E31FF3489100CBDAC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C65E21FF3489100CBDAC4 /* Foundation.framework */; };
 		CB70C0551E53FB4400AE1DC1 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */; };
 		CB70C0561E53FB4400AE1DC1 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */; };
@@ -40,6 +41,7 @@
 		A5652B851E5337850087B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5652B871E5337850087B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57D6CB41E589305002D275B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		A57FF9992293BD3E0068155E /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
 		CB0C65E21FF3489100CBDAC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB70C04B1E53FA3900AE1DC1 /* FFmpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFmpeg.h; sourceTree = "<group>"; };
 		CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavcodec.a"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				CB70C0561E53FB4400AE1DC1 /* libavdevice.a in Frameworks */,
 				CB70C0571E53FB4400AE1DC1 /* libavfilter.a in Frameworks */,
 				CB70C0581E53FB4400AE1DC1 /* libavformat.a in Frameworks */,
+				A57FF99A2293BD3E0068155E /* GPUImage.framework in Frameworks */,
 				CB70C0591E53FB4400AE1DC1 /* libavutil.a in Frameworks */,
 				CB70C05A1E53FB4400AE1DC1 /* libswresample.a in Frameworks */,
 				CB70C05B1E53FB4400AE1DC1 /* libswscale.a in Frameworks */,
@@ -91,6 +94,7 @@
 		300865855275F63A9D6C54FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A57FF9992293BD3E0068155E /* GPUImage.framework */,
 				CB0C65E21FF3489100CBDAC4 /* Foundation.framework */,
 				A57D6CB41E589305002D275B /* Metal.framework */,
 				CB70C06B1E53FD3400AE1DC1 /* AudioToolbox.framework */,
@@ -195,7 +199,7 @@
 				TargetAttributes = {
 					A5652B771E5337830087B2C0 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = R39434X7J7;
+						DevelopmentTeam = 28K9LD277B;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -400,7 +404,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = R39434X7J7;
+				DEVELOPMENT_TEAM = 28K9LD277B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/include";
 				INFOPLIST_FILE = swiftPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -409,7 +417,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/swiftPlayer";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -419,7 +427,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = R39434X7J7;
+				DEVELOPMENT_TEAM = 28K9LD277B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpeg-iOS-build-script/FFmpeg-iOS/include";
 				INFOPLIST_FILE = swiftPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -427,7 +439,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycisco.swiftPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/swiftPlayer";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

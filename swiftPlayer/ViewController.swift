@@ -11,15 +11,19 @@ import Metal
 import MetalKit
 import QuartzCore
 import FFmpeg
+import AVFoundation
+import GPUImage
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        avcodec_license()
-        
-        let path = "http://www.ithinknext.com/mydata/board/files/F201308021823010.mp4"
+        do {
+
+        } catch {
+            fatalError("Could not initialize rendering pipeline: \(error)")
+        }
     }
 
     override func didReceiveMemoryWarning() {
