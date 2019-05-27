@@ -16,10 +16,19 @@ import GPUImage
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var cameraContainer: UIView!
+    
+    private var camera: Camera?
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        _ = Camera(sessionPreset: .hd1920x1080)
+        do {
+            self.camera = try Camera(sessionPreset: .hd1920x1080)
+        } catch {
+            
+        }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
