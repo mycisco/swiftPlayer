@@ -13,7 +13,8 @@
 		A5652B831E5337850087B2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5652B821E5337850087B2C0 /* Assets.xcassets */; };
 		A5652B861E5337850087B2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5652B841E5337850087B2C0 /* LaunchScreen.storyboard */; };
 		A57D6CB51E589305002D275B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D6CB41E589305002D275B /* Metal.framework */; };
-		A57FF99A2293BD3E0068155E /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57FF9992293BD3E0068155E /* GPUImage.framework */; };
+		A5A77222229B881700D7E9B4 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7721E229B87D700D7E9B4 /* GPUImage.framework */; };
+		A5A77223229B881700D7E9B4 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7721E229B87D700D7E9B4 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CB0C65E31FF3489100CBDAC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C65E21FF3489100CBDAC4 /* Foundation.framework */; };
 		CB70C0551E53FB4400AE1DC1 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */; };
 		CB70C0561E53FB4400AE1DC1 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */; };
@@ -31,6 +32,58 @@
 		E5FB847D66032FF3CF6561A5 /* Pods_swiftPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261B640428F3B4947B54779A /* Pods_swiftPlayer.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A5A77219229B87D700D7E9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A77212229B87D700D7E9B4 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC6E7CAB1C39A9D8006DF678;
+			remoteInfo = GPUImage_macOS;
+		};
+		A5A7721B229B87D700D7E9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A77212229B87D700D7E9B4 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC6E7CB51C39A9D8006DF678;
+			remoteInfo = GPUImageTests_macOS;
+		};
+		A5A7721D229B87D700D7E9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A77212229B87D700D7E9B4 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9E34E91E524A2200B8604F;
+			remoteInfo = GPUImage_iOS;
+		};
+		A5A7721F229B87D700D7E9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A77212229B87D700D7E9B4 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9E34F11E524A2200B8604F;
+			remoteInfo = GPUImageTests_iOS;
+		};
+		A5A77224229B881700D7E9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A77212229B87D700D7E9B4 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9E34E81E524A2200B8604F;
+			remoteInfo = GPUImage_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5A77226229B881800D7E9B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5A77223229B881700D7E9B4 /* GPUImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		261B640428F3B4947B54779A /* Pods_swiftPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5652B781E5337830087B2C0 /* swiftPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +94,7 @@
 		A5652B851E5337850087B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5652B871E5337850087B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57D6CB41E589305002D275B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
-		A57FF9992293BD3E0068155E /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
+		A5A77212229B87D700D7E9B4 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = GPUImage/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 		CB0C65E21FF3489100CBDAC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB70C04B1E53FA3900AE1DC1 /* FFmpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFmpeg.h; sourceTree = "<group>"; };
 		CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavcodec.a"; sourceTree = "<group>"; };
@@ -81,7 +134,7 @@
 				CB70C0561E53FB4400AE1DC1 /* libavdevice.a in Frameworks */,
 				CB70C0571E53FB4400AE1DC1 /* libavfilter.a in Frameworks */,
 				CB70C0581E53FB4400AE1DC1 /* libavformat.a in Frameworks */,
-				A57FF99A2293BD3E0068155E /* GPUImage.framework in Frameworks */,
+				A5A77222229B881700D7E9B4 /* GPUImage.framework in Frameworks */,
 				CB70C0591E53FB4400AE1DC1 /* libavutil.a in Frameworks */,
 				CB70C05A1E53FB4400AE1DC1 /* libswresample.a in Frameworks */,
 				CB70C05B1E53FB4400AE1DC1 /* libswscale.a in Frameworks */,
@@ -94,7 +147,7 @@
 		300865855275F63A9D6C54FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A57FF9992293BD3E0068155E /* GPUImage.framework */,
+				A5A77212229B87D700D7E9B4 /* GPUImage.xcodeproj */,
 				CB0C65E21FF3489100CBDAC4 /* Foundation.framework */,
 				A57D6CB41E589305002D275B /* Metal.framework */,
 				CB70C06B1E53FD3400AE1DC1 /* AudioToolbox.framework */,
@@ -157,6 +210,17 @@
 			path = swiftPlayer;
 			sourceTree = "<group>";
 		};
+		A5A77213229B87D700D7E9B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A7721A229B87D700D7E9B4 /* GPUImage.framework */,
+				A5A7721C229B87D700D7E9B4 /* GPUImageTests_macOS.xctest */,
+				A5A7721E229B87D700D7E9B4 /* GPUImage.framework */,
+				A5A77220229B87D700D7E9B4 /* GPUImageTests_iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CB70C0491E53F91100AE1DC1 /* PlayerModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,10 +241,12 @@
 				A5652B741E5337830087B2C0 /* Sources */,
 				A5652B751E5337830087B2C0 /* Frameworks */,
 				A5652B761E5337830087B2C0 /* Resources */,
+				A5A77226229B881800D7E9B4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A5A77225229B881700D7E9B4 /* PBXTargetDependency */,
 			);
 			name = swiftPlayer;
 			productName = swiftPlayer;
@@ -216,12 +282,49 @@
 			mainGroup = A5652B6F1E5337830087B2C0;
 			productRefGroup = A5652B791E5337830087B2C0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A5A77213229B87D700D7E9B4 /* Products */;
+					ProjectRef = A5A77212229B87D700D7E9B4 /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A5652B771E5337830087B2C0 /* swiftPlayer */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A5A7721A229B87D700D7E9B4 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = A5A77219229B87D700D7E9B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A7721C229B87D700D7E9B4 /* GPUImageTests_macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests_macOS.xctest;
+			remoteRef = A5A7721B229B87D700D7E9B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A7721E229B87D700D7E9B4 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = A5A7721D229B87D700D7E9B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A77220229B87D700D7E9B4 /* GPUImageTests_iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests_iOS.xctest;
+			remoteRef = A5A7721F229B87D700D7E9B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A5652B761E5337830087B2C0 /* Resources */ = {
@@ -268,6 +371,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A77225229B881700D7E9B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage_iOS;
+			targetProxy = A5A77224229B881700D7E9B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A5652B7F1E5337840087B2C0 /* Main.storyboard */ = {
@@ -402,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D320EAC4561311EF911D0FF5 /* Pods-swiftPlayer.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 28K9LD277B;
@@ -425,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E945D9F1644821C07EAF1315 /* Pods-swiftPlayer.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 28K9LD277B;

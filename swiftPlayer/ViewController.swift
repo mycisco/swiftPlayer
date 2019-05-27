@@ -19,11 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        do {
-
-        } catch {
-            fatalError("Could not initialize rendering pipeline: \(error)")
-        }
+        _ = Camera(sessionPreset: .hd1920x1080)
     }
 
     override func didReceiveMemoryWarning() {
