@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		A5652B7C1E5337830087B2C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652B7B1E5337830087B2C0 /* AppDelegate.swift */; };
 		A5652B7E1E5337840087B2C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652B7D1E5337840087B2C0 /* ViewController.swift */; };
-		A5652B811E5337840087B2C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5652B7F1E5337840087B2C0 /* Main.storyboard */; };
 		A5652B831E5337850087B2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5652B821E5337850087B2C0 /* Assets.xcassets */; };
 		A5652B861E5337850087B2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5652B841E5337850087B2C0 /* LaunchScreen.storyboard */; };
 		A57D6CB51E589305002D275B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D6CB41E589305002D275B /* Metal.framework */; };
 		A5A77222229B881700D7E9B4 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7721E229B87D700D7E9B4 /* GPUImage.framework */; };
 		A5A77223229B881700D7E9B4 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7721E229B87D700D7E9B4 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5FF7929229BB6AA00834533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FF7928229BB6AA00834533 /* Main.storyboard */; };
 		CB0C65E31FF3489100CBDAC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C65E21FF3489100CBDAC4 /* Foundation.framework */; };
 		CB70C0551E53FB4400AE1DC1 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */; };
 		CB70C0561E53FB4400AE1DC1 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70C04F1E53FB4400AE1DC1 /* libavdevice.a */; };
@@ -89,12 +89,12 @@
 		A5652B781E5337830087B2C0 /* swiftPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5652B7B1E5337830087B2C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5652B7D1E5337840087B2C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5652B801E5337840087B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5652B821E5337850087B2C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5652B851E5337850087B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5652B871E5337850087B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57D6CB41E589305002D275B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		A5A77212229B87D700D7E9B4 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = GPUImage/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		A5FF7928229BB6AA00834533 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CB0C65E21FF3489100CBDAC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB70C04B1E53FA3900AE1DC1 /* FFmpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFmpeg.h; sourceTree = "<group>"; };
 		CB70C04E1E53FB4400AE1DC1 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "FFmpeg-iOS-build-script/FFmpeg-iOS/lib/libavcodec.a"; sourceTree = "<group>"; };
@@ -202,10 +202,10 @@
 				CB70C0491E53F91100AE1DC1 /* PlayerModule */,
 				A5652B7B1E5337830087B2C0 /* AppDelegate.swift */,
 				A5652B7D1E5337840087B2C0 /* ViewController.swift */,
-				A5652B7F1E5337840087B2C0 /* Main.storyboard */,
 				A5652B821E5337850087B2C0 /* Assets.xcassets */,
 				A5652B841E5337850087B2C0 /* LaunchScreen.storyboard */,
 				A5652B871E5337850087B2C0 /* Info.plist */,
+				A5FF7928229BB6AA00834533 /* Main.storyboard */,
 			);
 			path = swiftPlayer;
 			sourceTree = "<group>";
@@ -331,9 +331,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FF7929229BB6AA00834533 /* Main.storyboard in Resources */,
 				A5652B861E5337850087B2C0 /* LaunchScreen.storyboard in Resources */,
 				A5652B831E5337850087B2C0 /* Assets.xcassets in Resources */,
-				A5652B811E5337840087B2C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A5652B7F1E5337840087B2C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5652B801E5337840087B2C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A5652B841E5337850087B2C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

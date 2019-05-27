@@ -14,25 +14,39 @@ import FFmpeg
 import AVFoundation
 import GPUImage
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CameraDelegate {
 
-    @IBOutlet weak var cameraContainer: UIView!
+    @IBOutlet weak var renderView: RenderView!
     
     private var camera: Camera?
     override func viewDidLoad() {
         super.viewDidLoad()
         
         do {
-            self.camera = try Camera(sessionPreset: .hd1920x1080)
-        } catch {
+            self.camera = try Camera(sessionPreset: .hd1280x720)
+//            self.camera!.runBenchmark = true
             
+            let filter = SaturationAdjustment()
+            
+            self.camera! --> filter --> renderView
+            
+//            self.camera?.addTarget(renderView)
+            self.camera?.startCapture()
+            self.camera?.delegate = self
+        } catch {
+            self.camera = nil
         }
-        
         
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
+    }
+}
+
+extension ViewController  {
+    func didCaptureBuffer(_ sampleBuffer: CMSampleBuffer) {
         
     }
 }
