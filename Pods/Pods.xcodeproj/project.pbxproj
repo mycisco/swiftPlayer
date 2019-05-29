@@ -7,39 +7,207 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005B2829D1ECDB1393B884020F09C465 /* Pods-swiftPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA3442E54AD46B43660F8359E12785 /* Pods-swiftPlayer-dummy.m */; };
-		794D52B055C21C0663F8F89CD29E3860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		B276DD2CF348F516C8B396682702FBD4 /* Pods-swiftPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BEA7F7347E8A6EEBA009CEC3F1F373 /* Pods-swiftPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8CB15627CB67F16E25A4043E960E6B /* UriParser-cpp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF86365F39F105A69926607C8D20CE /* UriParser-cpp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C83B7BCDB4DAD1686B9EF5A1D42C561 /* UriCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D5016640D9FFD326260B08FDD827C2E /* UriCodec.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4F214C9F4475954F93FB63C2C4D2F00C /* Pods-swiftPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BEA7F7347E8A6EEBA009CEC3F1F373 /* Pods-swiftPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DE3140D96CAA65D96552E372AF384AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		775E49D46C85E008C88D5E38D7F8A418 /* UriParser-cpp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B7276F22290F7591229A24C828EAE /* UriParser-cpp-dummy.m */; };
+		A543C59EE90686CD1FA0A6BFE2BA1C9E /* Pods-swiftPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA3442E54AD46B43660F8359E12785 /* Pods-swiftPlayer-dummy.m */; };
+		F850AF9C6AB63736F1057E623D74F112 /* UriParser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C540C1A346E8499E4BDB4FCF9DCEF10A /* UriParser.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB8C308D1FE2A4C8704AE43DE2F87D16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AFBE391FA2A94759C177585E29B3A930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F9610FAFB05DF1582E00195F98ACE6F;
+			remoteInfo = "UriParser-cpp";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0369E3DBB92683F9E63E8D5215E9D1C2 /* type_size.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_size.hpp; path = glm/core/type_size.hpp; sourceTree = "<group>"; };
+		05161C8F317B7FBFDAA818297CB07537 /* func_matrix.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = func_matrix.hpp; path = glm/core/func_matrix.hpp; sourceTree = "<group>"; };
+		0A88A00879EF0990B2A7A4FE3234499D /* UriParser-cpp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UriParser-cpp.modulemap"; sourceTree = "<group>"; };
+		0C172033220DCB90361A8F264CDB19A0 /* matrix_inverse.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matrix_inverse.hpp; path = glm/gtc/matrix_inverse.hpp; sourceTree = "<group>"; };
+		0CCD253AED756E90BEE2FB0E6D28561B /* compatibility.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = compatibility.hpp; path = glm/gtx/compatibility.hpp; sourceTree = "<group>"; };
+		0CF8A7C894A7E465F15541714426CD6E /* matrix_transform.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matrix_transform.hpp; path = glm/gtc/matrix_transform.hpp; sourceTree = "<group>"; };
 		0D8FC2D94A8957B544A334F0C1B2CDA8 /* Pods-swiftPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-swiftPlayer-resources.sh"; sourceTree = "<group>"; };
+		0DDF86365F39F105A69926607C8D20CE /* UriParser-cpp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UriParser-cpp-umbrella.h"; sourceTree = "<group>"; };
+		14CD2E8C567866E76A40F2DC72E2D79F /* simd_vec4.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = simd_vec4.hpp; path = glm/gtx/simd_vec4.hpp; sourceTree = "<group>"; };
+		15317E45A2EF9AE806015C2D29731C0C /* type_mat2x3.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat2x3.hpp; path = glm/core/type_mat2x3.hpp; sourceTree = "<group>"; };
 		15DA3442E54AD46B43660F8359E12785 /* Pods-swiftPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftPlayer-dummy.m"; sourceTree = "<group>"; };
+		1A87E0E12CC4B4075DE53F726DB3729B /* fast_trigonometry.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fast_trigonometry.hpp; path = glm/gtx/fast_trigonometry.hpp; sourceTree = "<group>"; };
+		1BE759E95B9926A98DC6204610C01358 /* type_gentype.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_gentype.hpp; path = glm/core/type_gentype.hpp; sourceTree = "<group>"; };
+		1C6887D7AEC67BE2F8A57016C365362B /* matrix_cross_product.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matrix_cross_product.hpp; path = glm/gtx/matrix_cross_product.hpp; sourceTree = "<group>"; };
+		1C6C4693BB27D70CDCE01744FA4D0769 /* color_cast.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = color_cast.hpp; path = glm/gtx/color_cast.hpp; sourceTree = "<group>"; };
+		1FEE85D058462DB5F56B3627E27BD57F /* glm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = glm.hpp; path = glm/glm.hpp; sourceTree = "<group>"; };
+		21CB149095B79070402926B415126743 /* random.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = random.hpp; path = glm/gtc/random.hpp; sourceTree = "<group>"; };
+		2607C7086717598BED5F964D2677E48D /* int_10_10_10_2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = int_10_10_10_2.hpp; path = glm/gtx/int_10_10_10_2.hpp; sourceTree = "<group>"; };
+		26C944942E615A4506976BA44B7CAF24 /* noise.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = noise.hpp; path = glm/gtc/noise.hpp; sourceTree = "<group>"; };
+		26ED70E7B27907D4977A8CB90711D640 /* epsilon.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = epsilon.hpp; path = glm/gtc/epsilon.hpp; sourceTree = "<group>"; };
+		27D8AE449EAFF2381F9083891E02BE25 /* random.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = random.hpp; path = glm/gtx/random.hpp; sourceTree = "<group>"; };
+		2A942B89A5E5F9837C6B6802D926E506 /* hint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = hint.hpp; path = glm/core/hint.hpp; sourceTree = "<group>"; };
+		2AC2BCC63A58424FBBB1399088EF8006 /* orthonormalize.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = orthonormalize.hpp; path = glm/gtx/orthonormalize.hpp; sourceTree = "<group>"; };
+		2F8C266D164FE53483230E162027232D /* func_common.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = func_common.hpp; path = glm/core/func_common.hpp; sourceTree = "<group>"; };
+		313AEF0DC0CCCB7E45165BE8DBFC7645 /* func_exponential.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = func_exponential.hpp; path = glm/core/func_exponential.hpp; sourceTree = "<group>"; };
+		317300E41ADF3AB8EF3B0F32114CA5A1 /* simd_mat4.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = simd_mat4.hpp; path = glm/gtx/simd_mat4.hpp; sourceTree = "<group>"; };
+		32AD193A0C09C745C448053F3F3637FB /* polar_coordinates.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = polar_coordinates.hpp; path = glm/gtx/polar_coordinates.hpp; sourceTree = "<group>"; };
+		34E143175BFF3F71302DA9681C88C3C9 /* type_mat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat.hpp; path = glm/core/type_mat.hpp; sourceTree = "<group>"; };
+		3532E77CF319B6ED976E875B80E84623 /* type_mat4x4.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat4x4.hpp; path = glm/core/type_mat4x4.hpp; sourceTree = "<group>"; };
+		3DE44E96E4D68351321D2F64F9FAD736 /* type_precision.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_precision.hpp; path = glm/gtc/type_precision.hpp; sourceTree = "<group>"; };
+		3E7A30C3FF777BEA2DCE3183E026D0A9 /* reciprocal.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = reciprocal.hpp; path = glm/gtc/reciprocal.hpp; sourceTree = "<group>"; };
+		3EDAF55C914E38EA15E674D14D0D0D40 /* ulp.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ulp.hpp; path = glm/gtc/ulp.hpp; sourceTree = "<group>"; };
 		3F085023CE48038BC7F5E44732ED2037 /* Pods-swiftPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swiftPlayer.modulemap"; sourceTree = "<group>"; };
+		403E6C2D30A48CA1034EC1882751BBF2 /* Pods_swiftPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_swiftPlayer.framework; path = "Pods-swiftPlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DC0E395E9B257AB7B2A3849239A24B /* epsilon.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = epsilon.hpp; path = glm/gtx/epsilon.hpp; sourceTree = "<group>"; };
 		425C10E7611116201AB3FFD370958709 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44517399FAF128FA3687B3AC25278148 /* Pods-swiftPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swiftPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4486839A094A9F7FBD3D4139359A7EBB /* multiple.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = multiple.hpp; path = glm/gtx/multiple.hpp; sourceTree = "<group>"; };
 		44FA7D12C617C2BE5B68F6B4D49FDA8C /* Pods-swiftPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		45C5830847738E9253A1912DF3267160 /* type_mat4x3.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat4x3.hpp; path = glm/core/type_mat4x3.hpp; sourceTree = "<group>"; };
+		47B92463A95209B7D98EB238DC4318AF /* intrinsic_vector_relational.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrinsic_vector_relational.hpp; path = glm/core/intrinsic_vector_relational.hpp; sourceTree = "<group>"; };
+		4851870CA7F73ECC50A0071FF249224B /* _vectorize.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = _vectorize.hpp; path = glm/core/_vectorize.hpp; sourceTree = "<group>"; };
+		49791CDB40F6DED4F788C02C92E7E1B0 /* noise.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = noise.hpp; path = glm/gtx/noise.hpp; sourceTree = "<group>"; };
+		4D8976786A106BF5CE3CA7E53A0420C0 /* extented_min_max.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = extented_min_max.hpp; path = glm/gtx/extented_min_max.hpp; sourceTree = "<group>"; };
+		4EB00E414489BE94D42E8149826777A3 /* color_space.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = color_space.hpp; path = glm/gtx/color_space.hpp; sourceTree = "<group>"; };
 		4F21BE3DCA398AAA756C257C13B92FFB /* Pods-swiftPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		508FA9B9F3597215F55CC6ADE3887970 /* type_half.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_half.hpp; path = glm/core/type_half.hpp; sourceTree = "<group>"; };
+		5247DD12C233FD7ECBF60397245BA4E2 /* associated_min_max.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = associated_min_max.hpp; path = glm/gtx/associated_min_max.hpp; sourceTree = "<group>"; };
+		536B9B776AFC6F1042EB7F877F720E5E /* func_vector_relational.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = func_vector_relational.hpp; path = glm/core/func_vector_relational.hpp; sourceTree = "<group>"; };
+		53F5B81EA579DD8FC0CC1B7D2FED5562 /* UriParser-cpp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UriParser-cpp.xcconfig"; sourceTree = "<group>"; };
+		559A051AAB409074F40534C7C5AF291E /* intrinsic_trigonometric.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrinsic_trigonometric.hpp; path = glm/core/intrinsic_trigonometric.hpp; sourceTree = "<group>"; };
+		55C40BB2E56213E9DBA55D01722E9E1F /* optimum_pow.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = optimum_pow.hpp; path = glm/gtx/optimum_pow.hpp; sourceTree = "<group>"; };
+		567DDFFC9382FC60E6172F3D21E2BE03 /* transform.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transform.hpp; path = glm/gtx/transform.hpp; sourceTree = "<group>"; };
+		5AA7801CD198A1157E47272E1E16BF7A /* type_mat3x4.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat3x4.hpp; path = glm/core/type_mat3x4.hpp; sourceTree = "<group>"; };
+		5FD60C91E64C2541DF9AABD0C2D26BE9 /* log_base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = log_base.hpp; path = glm/gtx/log_base.hpp; sourceTree = "<group>"; };
+		608C2B3BE3C356EA8BF729EB01A7D7C2 /* vec1.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vec1.hpp; path = glm/gtx/vec1.hpp; sourceTree = "<group>"; };
+		62DCA8B440F3D4D5224CA41CAE8C6361 /* intrinsic_exponential.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrinsic_exponential.hpp; path = glm/core/intrinsic_exponential.hpp; sourceTree = "<group>"; };
+		669DDC32A13B8A3DBF83E710CCC87615 /* intrinsic_matrix.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrinsic_matrix.hpp; path = glm/core/intrinsic_matrix.hpp; sourceTree = "<group>"; };
+		66A9DFA80EFEC7CAA38415294873B487 /* vector_angle.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vector_angle.hpp; path = glm/gtx/vector_angle.hpp; sourceTree = "<group>"; };
+		6B5DCF5F6E866286361416F1005E42C3 /* type_mat2x4.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat2x4.hpp; path = glm/core/type_mat2x4.hpp; sourceTree = "<group>"; };
+		6D5016640D9FFD326260B08FDD827C2E /* UriCodec.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = UriCodec.cpp; sourceTree = "<group>"; };
+		6F5A28C4BA7C08594C8A371B04F187AC /* quaternion.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = quaternion.hpp; path = glm/gtc/quaternion.hpp; sourceTree = "<group>"; };
+		714A9D26AE6BDF921551D038BAC2C936 /* type_mat2x2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat2x2.hpp; path = glm/core/type_mat2x2.hpp; sourceTree = "<group>"; };
+		73BBA379491955BB6CEBF5EF5BE68102 /* color_space_YCoCg.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = color_space_YCoCg.hpp; path = glm/gtx/color_space_YCoCg.hpp; sourceTree = "<group>"; };
+		7546C7AB8AE24EB4F5F003E211E8C625 /* inertia.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = inertia.hpp; path = glm/gtx/inertia.hpp; sourceTree = "<group>"; };
+		789285D01A4ACDDE4323796FE2BB4199 /* type_vec1.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_vec1.hpp; path = glm/core/type_vec1.hpp; sourceTree = "<group>"; };
+		7B30F7823614E96D714BFDD9CCABF7E7 /* ocl_type.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ocl_type.hpp; path = glm/gtx/ocl_type.hpp; sourceTree = "<group>"; };
+		7BB7DBFA1F309737F022D8BECE05623A /* func_noise.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = func_noise.hpp; path = glm/core/func_noise.hpp; sourceTree = "<group>"; };
+		7D7C017019973D8CC4F9A1B2436453D2 /* integer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = integer.hpp; path = glm/gtx/integer.hpp; sourceTree = "<group>"; };
+		7D85CBBBB01F65847A3830CDA0305CB5 /* number_precision.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = number_precision.hpp; path = glm/gtx/number_precision.hpp; sourceTree = "<group>"; };
+		7E99B9F7ED7AA8A20A4AC0D20D9CDD6D /* type_vec3.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_vec3.hpp; path = glm/core/type_vec3.hpp; sourceTree = "<group>"; };
+		7F75D14A5754DE350E0DBCFBAADDE94F /* UriParser-cpp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UriParser-cpp-prefix.pch"; sourceTree = "<group>"; };
+		80D585393ADF855151F093A5877A2C08 /* type.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type.hpp; path = glm/core/type.hpp; sourceTree = "<group>"; };
+		81BCDDCDF813986DF0278390940DB839 /* normalize_dot.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = normalize_dot.hpp; path = glm/gtx/normalize_dot.hpp; sourceTree = "<group>"; };
+		82B18E4C8574E9DC3C938A24864C43AA /* vector_query.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vector_query.hpp; path = glm/gtx/vector_query.hpp; sourceTree = "<group>"; };
+		8760EBE1BC37E5EA4A0542588E62F40A /* component_wise.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = component_wise.hpp; path = glm/gtx/component_wise.hpp; sourceTree = "<group>"; };
+		878FBACCB8F837E2894B657673F044B1 /* setup.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = setup.hpp; path = glm/core/setup.hpp; sourceTree = "<group>"; };
+		88399BA3B9159C3BA949F0837D993EC3 /* string_cast.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = string_cast.hpp; path = glm/gtx/string_cast.hpp; sourceTree = "<group>"; };
+		897452500F04ABC75AF074439B60366E /* normal.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = normal.hpp; path = glm/gtx/normal.hpp; sourceTree = "<group>"; };
+		8DA6EC50740E8902AB2BC9DC40A18F0B /* matrix_integer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matrix_integer.hpp; path = glm/gtc/matrix_integer.hpp; sourceTree = "<group>"; };
+		8E40F20BCC981F2EEF79441DA49E08CF /* intersect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intersect.hpp; path = glm/gtx/intersect.hpp; sourceTree = "<group>"; };
+		8FED45FBAE2A35008FAD8ADAE1CD1820 /* extend.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = extend.hpp; path = glm/gtx/extend.hpp; sourceTree = "<group>"; };
+		9004D2FFAC7D94187E3702F4014B35EB /* mixed_product.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mixed_product.hpp; path = glm/gtx/mixed_product.hpp; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9410079073BC3856A54BF40E138718C4 /* type_float.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_float.hpp; path = glm/core/type_float.hpp; sourceTree = "<group>"; };
+		947C60C482AFE55D7AC1F02BDD025F70 /* swizzle.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = swizzle.hpp; path = glm/gtc/swizzle.hpp; sourceTree = "<group>"; };
+		98DD99E9A3DFD1481188422E06F29C83 /* type_int.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_int.hpp; path = glm/core/type_int.hpp; sourceTree = "<group>"; };
+		9936E0303D8DC9C9342360935FD5C637 /* intrinsic_geometric.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrinsic_geometric.hpp; path = glm/core/intrinsic_geometric.hpp; sourceTree = "<group>"; };
+		9BD892FACD84F317EBA48102848749AF /* projection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = projection.hpp; path = glm/gtx/projection.hpp; sourceTree = "<group>"; };
+		9DFF905949D563816984B3966D4016B2 /* ext.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ext.hpp; path = glm/ext.hpp; sourceTree = "<group>"; };
+		9E33A65E36940753750A8CC549EFDB2D /* _swizzle_func.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = _swizzle_func.hpp; path = glm/core/_swizzle_func.hpp; sourceTree = "<group>"; };
+		9ECB221F5ED3EA77A05A4FF7DE4CA455 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F83E2F63553F9FCCBAEF4B054641667 /* gradient_paint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = gradient_paint.hpp; path = glm/gtx/gradient_paint.hpp; sourceTree = "<group>"; };
+		A04214A4494750EE0D1561328D846FA3 /* type_mat4x2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat4x2.hpp; path = glm/core/type_mat4x2.hpp; sourceTree = "<group>"; };
+		A3EEF9065F32C7C4732F158120B2CD52 /* xstream.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = xstream.hpp; path = glm/virtrev/xstream.hpp; sourceTree = "<group>"; };
+		A46693398B057F937F07AF4562B1601B /* func_packing.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = func_packing.hpp; path = glm/core/func_packing.hpp; sourceTree = "<group>"; };
 		A8BEA7F7347E8A6EEBA009CEC3F1F373 /* Pods-swiftPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swiftPlayer-umbrella.h"; sourceTree = "<group>"; };
-		B3E481012E20F59573EA679ACD58284F /* Pods_swiftPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B114FE03F52BDAD216B958F98A6F47A3 /* UriParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UriParser.framework; path = "UriParser-cpp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B390D9F5D841826EA21D6F4B1AC66799 /* ulp.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ulp.hpp; path = glm/gtx/ulp.hpp; sourceTree = "<group>"; };
+		B41F7648718853315FA46C676CA3EF24 /* _swizzle.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = _swizzle.hpp; path = glm/core/_swizzle.hpp; sourceTree = "<group>"; };
+		B952BA89379D73BF29D36090A5AF043A /* matrix_operation.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matrix_operation.hpp; path = glm/gtx/matrix_operation.hpp; sourceTree = "<group>"; };
+		BA272050AD60BC424E645BAD2878FF7B /* type_vec2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_vec2.hpp; path = glm/core/type_vec2.hpp; sourceTree = "<group>"; };
+		BA507583A8F510B247DB095441B53CD8 /* wrap.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = wrap.hpp; path = glm/gtx/wrap.hpp; sourceTree = "<group>"; };
+		BACD953EC123F463FA189A098B5F60C1 /* reciprocal.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = reciprocal.hpp; path = glm/gtx/reciprocal.hpp; sourceTree = "<group>"; };
+		BB95A760DA9D05C70B3B06E0DBBE2BDB /* raw_data.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = raw_data.hpp; path = glm/gtx/raw_data.hpp; sourceTree = "<group>"; };
+		BC9ED92DDB4220D5522B72D0CA99B9C7 /* perpendicular.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = perpendicular.hpp; path = glm/gtx/perpendicular.hpp; sourceTree = "<group>"; };
+		BD2F7E8F0D737FF009077259684C451F /* func_geometric.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = func_geometric.hpp; path = glm/core/func_geometric.hpp; sourceTree = "<group>"; };
+		BE92A35A9DA3070D04F3AAA600323B90 /* intrinsic_common.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrinsic_common.hpp; path = glm/core/intrinsic_common.hpp; sourceTree = "<group>"; };
+		BFB1CBF8CC7C93D868AD58095C86028D /* fast_square_root.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fast_square_root.hpp; path = glm/gtx/fast_square_root.hpp; sourceTree = "<group>"; };
+		C050DF6FC63932CC0B1B5AB78BD3B8E8 /* bit.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = bit.hpp; path = glm/gtx/bit.hpp; sourceTree = "<group>"; };
+		C172971447655067731BF4D64F26C8EC /* type_ptr.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_ptr.hpp; path = glm/gtc/type_ptr.hpp; sourceTree = "<group>"; };
+		C329ADD10F3FC66D93FB5D54A3A7BECC /* type_mat3x2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat3x2.hpp; path = glm/core/type_mat3x2.hpp; sourceTree = "<group>"; };
+		C40267B02ECFC650016B433D54E8A06D /* type_mat3x3.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_mat3x3.hpp; path = glm/core/type_mat3x3.hpp; sourceTree = "<group>"; };
 		C4EA510FB612C90F15520466D90D8D5F /* Pods-swiftPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		C540C1A346E8499E4BDB4FCF9DCEF10A /* UriParser.hpp */ = {isa = PBXFileReference; includeInIndex = 1; path = UriParser.hpp; sourceTree = "<group>"; };
+		C772616681DA7FC3A9BE77575171BD65 /* norm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = norm.hpp; path = glm/gtx/norm.hpp; sourceTree = "<group>"; };
+		CA5F1E8BC2CF0CAB8C4ABE062A5ECEC7 /* handed_coordinate_space.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = handed_coordinate_space.hpp; path = glm/gtx/handed_coordinate_space.hpp; sourceTree = "<group>"; };
+		CB4EF8D1A00164BC67B00428C9E9854F /* _detail.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = _detail.hpp; path = glm/core/_detail.hpp; sourceTree = "<group>"; };
+		CB981AA8BFEA1BA30B20D81D754228C5 /* type_vec.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_vec.hpp; path = glm/core/type_vec.hpp; sourceTree = "<group>"; };
+		CD34C3C4CBF7190329EB503CC0D34149 /* unsigned_int.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = unsigned_int.hpp; path = glm/gtx/unsigned_int.hpp; sourceTree = "<group>"; };
+		CD809B0893EC46669BC806DBAD2E2E4C /* transform2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transform2.hpp; path = glm/gtx/transform2.hpp; sourceTree = "<group>"; };
+		D5901FD2A4A0F7B26E407AD9B5338FB0 /* euler_angles.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = euler_angles.hpp; path = glm/gtx/euler_angles.hpp; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D70D2348B16E3ED8B05DB9D9F5BED5E4 /* matrix_interpolation.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matrix_interpolation.hpp; path = glm/gtx/matrix_interpolation.hpp; sourceTree = "<group>"; };
+		D72B7276F22290F7591229A24C828EAE /* UriParser-cpp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UriParser-cpp-dummy.m"; sourceTree = "<group>"; };
+		D79FC1CE2980683FC8D2F3DB4F53A352 /* half_float.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = half_float.hpp; path = glm/gtc/half_float.hpp; sourceTree = "<group>"; };
+		D915628D83934B262FB40A6BF6A5F801 /* constants.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = constants.hpp; path = glm/gtx/constants.hpp; sourceTree = "<group>"; };
+		DBE8795C9B52F99C61746D6F1D47F0B7 /* constants.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = constants.hpp; path = glm/gtc/constants.hpp; sourceTree = "<group>"; };
+		DC1343188572A25DCBC1DA297E8E3131 /* func_trigonometric.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = func_trigonometric.hpp; path = glm/core/func_trigonometric.hpp; sourceTree = "<group>"; };
+		DFB75BA07729BE8B2899D76AFF5A8F0B /* matrix_query.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matrix_query.hpp; path = glm/gtx/matrix_query.hpp; sourceTree = "<group>"; };
+		E239EAACAC0364D1250F7E031515B61B /* std_based_type.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = std_based_type.hpp; path = glm/gtx/std_based_type.hpp; sourceTree = "<group>"; };
+		E2841C563E27B202DEBCFDB2309B198D /* rotate_vector.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rotate_vector.hpp; path = glm/gtx/rotate_vector.hpp; sourceTree = "<group>"; };
+		E2ACF1168A6764E269BC70E0B63D7BE5 /* type_vec4.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = type_vec4.hpp; path = glm/core/type_vec4.hpp; sourceTree = "<group>"; };
+		E393A73F6CA3D91FF9D95CAF75A34C4C /* spline.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = spline.hpp; path = glm/gtx/spline.hpp; sourceTree = "<group>"; };
+		EA2F7595A00CECEE7DC8656AC2068B47 /* func_integer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = func_integer.hpp; path = glm/core/func_integer.hpp; sourceTree = "<group>"; };
 		EAB2180C312864AAE0902787D638D33F /* Pods-swiftPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-swiftPlayer-frameworks.sh"; sourceTree = "<group>"; };
+		EDAA30CE6A9A79E1BD537AAF8CD59F15 /* verbose_operator.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = verbose_operator.hpp; path = glm/gtx/verbose_operator.hpp; sourceTree = "<group>"; };
+		EDB2FFA7EF42C8D2252DA74099306EF1 /* quaternion.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = quaternion.hpp; path = glm/gtx/quaternion.hpp; sourceTree = "<group>"; };
+		F0AFC32473276F5FA9D8A50A8F9A46C0 /* _fixes.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = _fixes.hpp; path = glm/core/_fixes.hpp; sourceTree = "<group>"; };
+		F334D72272C43A86BA5ADD6E86164558 /* matrix_major_storage.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matrix_major_storage.hpp; path = glm/gtx/matrix_major_storage.hpp; sourceTree = "<group>"; };
+		F651B14DBFB4BA8BB86DA20756324E0E /* vector_access.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vector_access.hpp; path = glm/gtx/vector_access.hpp; sourceTree = "<group>"; };
+		F9618FD9763DEAC6BC718FA9E4D2C604 /* closest_point.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = closest_point.hpp; path = glm/gtx/closest_point.hpp; sourceTree = "<group>"; };
+		F9DADE190FAE9E0FF3BA86FBB25439B4 /* matrix_access.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matrix_access.hpp; path = glm/gtc/matrix_access.hpp; sourceTree = "<group>"; };
+		FC88C81845ADE40E960B5A3A15383ADA /* fast_exponential.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fast_exponential.hpp; path = glm/gtx/fast_exponential.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		379CCD4D8F4AFB96A096065DCE642FA2 /* Frameworks */ = {
+		03B0EFCFC0E84E3D97C185975E5569FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794D52B055C21C0663F8F89CD29E3860 /* Foundation.framework in Frameworks */,
+				FB8C308D1FE2A4C8704AE43DE2F87D16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93D20293B628AAA9681A40E3752875C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE3140D96CAA65D96552E372AF384AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A0C5A70673D31DB6DB00A834F72567D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ECB221F5ED3EA77A05A4FF7DE4CA455 /* Info.plist */,
+				0A88A00879EF0990B2A7A4FE3234499D /* UriParser-cpp.modulemap */,
+				53F5B81EA579DD8FC0CC1B7D2FED5562 /* UriParser-cpp.xcconfig */,
+				D72B7276F22290F7591229A24C828EAE /* UriParser-cpp-dummy.m */,
+				7F75D14A5754DE350E0DBCFBAADDE94F /* UriParser-cpp-prefix.pch */,
+				0DDF86365F39F105A69926607C8D20CE /* UriParser-cpp-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UriParser-cpp";
+			sourceTree = "<group>";
+		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -48,12 +216,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7699FC5D300974B4D737BEEBB267EF2A /* Products */ = {
+		6D2C1A67FFA6BF4AC6E65C8559AAA08A /* boost */ = {
 			isa = PBXGroup;
 			children = (
-				B3E481012E20F59573EA679ACD58284F /* Pods_swiftPlayer.framework */,
 			);
-			name = Products;
+			name = boost;
+			path = boost;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -61,9 +229,40 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7699FC5D300974B4D737BEEBB267EF2A /* Products */,
+				B10BF59AA0E255203A8E7261674EDEE3 /* Pods */,
+				8E03B7A00AE8B4722810AD21E77B9259 /* Products */,
 				FA5DF63100326554C2A33A14DB502DAC /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F7A0DE138FA7A5C7B8BE8FDA40C4C16 /* UriParser-cpp */ = {
+			isa = PBXGroup;
+			children = (
+				6D5016640D9FFD326260B08FDD827C2E /* UriCodec.cpp */,
+				C540C1A346E8499E4BDB4FCF9DCEF10A /* UriParser.hpp */,
+				3A0C5A70673D31DB6DB00A834F72567D /* Support Files */,
+			);
+			name = "UriParser-cpp";
+			path = "UriParser-cpp";
+			sourceTree = "<group>";
+		};
+		8E03B7A00AE8B4722810AD21E77B9259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403E6C2D30A48CA1034EC1882751BBF2 /* Pods_swiftPlayer.framework */,
+				B114FE03F52BDAD216B958F98A6F47A3 /* UriParser.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B10BF59AA0E255203A8E7261674EDEE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C1A67FFA6BF4AC6E65C8559AAA08A /* boost */,
+				C9E4CF3613867ED56E4CA01676A1C943 /* glm */,
+				7F7A0DE138FA7A5C7B8BE8FDA40C4C16 /* UriParser-cpp */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -72,6 +271,136 @@
 				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E4CF3613867ED56E4CA01676A1C943 /* glm */ = {
+			isa = PBXGroup;
+			children = (
+				CB4EF8D1A00164BC67B00428C9E9854F /* _detail.hpp */,
+				F0AFC32473276F5FA9D8A50A8F9A46C0 /* _fixes.hpp */,
+				B41F7648718853315FA46C676CA3EF24 /* _swizzle.hpp */,
+				9E33A65E36940753750A8CC549EFDB2D /* _swizzle_func.hpp */,
+				4851870CA7F73ECC50A0071FF249224B /* _vectorize.hpp */,
+				5247DD12C233FD7ECBF60397245BA4E2 /* associated_min_max.hpp */,
+				C050DF6FC63932CC0B1B5AB78BD3B8E8 /* bit.hpp */,
+				F9618FD9763DEAC6BC718FA9E4D2C604 /* closest_point.hpp */,
+				1C6C4693BB27D70CDCE01744FA4D0769 /* color_cast.hpp */,
+				4EB00E414489BE94D42E8149826777A3 /* color_space.hpp */,
+				73BBA379491955BB6CEBF5EF5BE68102 /* color_space_YCoCg.hpp */,
+				0CCD253AED756E90BEE2FB0E6D28561B /* compatibility.hpp */,
+				8760EBE1BC37E5EA4A0542588E62F40A /* component_wise.hpp */,
+				DBE8795C9B52F99C61746D6F1D47F0B7 /* constants.hpp */,
+				D915628D83934B262FB40A6BF6A5F801 /* constants.hpp */,
+				26ED70E7B27907D4977A8CB90711D640 /* epsilon.hpp */,
+				40DC0E395E9B257AB7B2A3849239A24B /* epsilon.hpp */,
+				D5901FD2A4A0F7B26E407AD9B5338FB0 /* euler_angles.hpp */,
+				9DFF905949D563816984B3966D4016B2 /* ext.hpp */,
+				8FED45FBAE2A35008FAD8ADAE1CD1820 /* extend.hpp */,
+				4D8976786A106BF5CE3CA7E53A0420C0 /* extented_min_max.hpp */,
+				FC88C81845ADE40E960B5A3A15383ADA /* fast_exponential.hpp */,
+				BFB1CBF8CC7C93D868AD58095C86028D /* fast_square_root.hpp */,
+				1A87E0E12CC4B4075DE53F726DB3729B /* fast_trigonometry.hpp */,
+				2F8C266D164FE53483230E162027232D /* func_common.hpp */,
+				313AEF0DC0CCCB7E45165BE8DBFC7645 /* func_exponential.hpp */,
+				BD2F7E8F0D737FF009077259684C451F /* func_geometric.hpp */,
+				EA2F7595A00CECEE7DC8656AC2068B47 /* func_integer.hpp */,
+				05161C8F317B7FBFDAA818297CB07537 /* func_matrix.hpp */,
+				7BB7DBFA1F309737F022D8BECE05623A /* func_noise.hpp */,
+				A46693398B057F937F07AF4562B1601B /* func_packing.hpp */,
+				DC1343188572A25DCBC1DA297E8E3131 /* func_trigonometric.hpp */,
+				536B9B776AFC6F1042EB7F877F720E5E /* func_vector_relational.hpp */,
+				1FEE85D058462DB5F56B3627E27BD57F /* glm.hpp */,
+				9F83E2F63553F9FCCBAEF4B054641667 /* gradient_paint.hpp */,
+				D79FC1CE2980683FC8D2F3DB4F53A352 /* half_float.hpp */,
+				CA5F1E8BC2CF0CAB8C4ABE062A5ECEC7 /* handed_coordinate_space.hpp */,
+				2A942B89A5E5F9837C6B6802D926E506 /* hint.hpp */,
+				7546C7AB8AE24EB4F5F003E211E8C625 /* inertia.hpp */,
+				2607C7086717598BED5F964D2677E48D /* int_10_10_10_2.hpp */,
+				7D7C017019973D8CC4F9A1B2436453D2 /* integer.hpp */,
+				8E40F20BCC981F2EEF79441DA49E08CF /* intersect.hpp */,
+				BE92A35A9DA3070D04F3AAA600323B90 /* intrinsic_common.hpp */,
+				62DCA8B440F3D4D5224CA41CAE8C6361 /* intrinsic_exponential.hpp */,
+				9936E0303D8DC9C9342360935FD5C637 /* intrinsic_geometric.hpp */,
+				669DDC32A13B8A3DBF83E710CCC87615 /* intrinsic_matrix.hpp */,
+				559A051AAB409074F40534C7C5AF291E /* intrinsic_trigonometric.hpp */,
+				47B92463A95209B7D98EB238DC4318AF /* intrinsic_vector_relational.hpp */,
+				5FD60C91E64C2541DF9AABD0C2D26BE9 /* log_base.hpp */,
+				F9DADE190FAE9E0FF3BA86FBB25439B4 /* matrix_access.hpp */,
+				1C6887D7AEC67BE2F8A57016C365362B /* matrix_cross_product.hpp */,
+				8DA6EC50740E8902AB2BC9DC40A18F0B /* matrix_integer.hpp */,
+				D70D2348B16E3ED8B05DB9D9F5BED5E4 /* matrix_interpolation.hpp */,
+				0C172033220DCB90361A8F264CDB19A0 /* matrix_inverse.hpp */,
+				F334D72272C43A86BA5ADD6E86164558 /* matrix_major_storage.hpp */,
+				B952BA89379D73BF29D36090A5AF043A /* matrix_operation.hpp */,
+				DFB75BA07729BE8B2899D76AFF5A8F0B /* matrix_query.hpp */,
+				0CF8A7C894A7E465F15541714426CD6E /* matrix_transform.hpp */,
+				9004D2FFAC7D94187E3702F4014B35EB /* mixed_product.hpp */,
+				4486839A094A9F7FBD3D4139359A7EBB /* multiple.hpp */,
+				26C944942E615A4506976BA44B7CAF24 /* noise.hpp */,
+				49791CDB40F6DED4F788C02C92E7E1B0 /* noise.hpp */,
+				C772616681DA7FC3A9BE77575171BD65 /* norm.hpp */,
+				897452500F04ABC75AF074439B60366E /* normal.hpp */,
+				81BCDDCDF813986DF0278390940DB839 /* normalize_dot.hpp */,
+				7D85CBBBB01F65847A3830CDA0305CB5 /* number_precision.hpp */,
+				7B30F7823614E96D714BFDD9CCABF7E7 /* ocl_type.hpp */,
+				55C40BB2E56213E9DBA55D01722E9E1F /* optimum_pow.hpp */,
+				2AC2BCC63A58424FBBB1399088EF8006 /* orthonormalize.hpp */,
+				BC9ED92DDB4220D5522B72D0CA99B9C7 /* perpendicular.hpp */,
+				32AD193A0C09C745C448053F3F3637FB /* polar_coordinates.hpp */,
+				9BD892FACD84F317EBA48102848749AF /* projection.hpp */,
+				EDB2FFA7EF42C8D2252DA74099306EF1 /* quaternion.hpp */,
+				6F5A28C4BA7C08594C8A371B04F187AC /* quaternion.hpp */,
+				27D8AE449EAFF2381F9083891E02BE25 /* random.hpp */,
+				21CB149095B79070402926B415126743 /* random.hpp */,
+				BB95A760DA9D05C70B3B06E0DBBE2BDB /* raw_data.hpp */,
+				3E7A30C3FF777BEA2DCE3183E026D0A9 /* reciprocal.hpp */,
+				BACD953EC123F463FA189A098B5F60C1 /* reciprocal.hpp */,
+				E2841C563E27B202DEBCFDB2309B198D /* rotate_vector.hpp */,
+				878FBACCB8F837E2894B657673F044B1 /* setup.hpp */,
+				317300E41ADF3AB8EF3B0F32114CA5A1 /* simd_mat4.hpp */,
+				14CD2E8C567866E76A40F2DC72E2D79F /* simd_vec4.hpp */,
+				E393A73F6CA3D91FF9D95CAF75A34C4C /* spline.hpp */,
+				E239EAACAC0364D1250F7E031515B61B /* std_based_type.hpp */,
+				88399BA3B9159C3BA949F0837D993EC3 /* string_cast.hpp */,
+				947C60C482AFE55D7AC1F02BDD025F70 /* swizzle.hpp */,
+				567DDFFC9382FC60E6172F3D21E2BE03 /* transform.hpp */,
+				CD809B0893EC46669BC806DBAD2E2E4C /* transform2.hpp */,
+				80D585393ADF855151F093A5877A2C08 /* type.hpp */,
+				9410079073BC3856A54BF40E138718C4 /* type_float.hpp */,
+				1BE759E95B9926A98DC6204610C01358 /* type_gentype.hpp */,
+				508FA9B9F3597215F55CC6ADE3887970 /* type_half.hpp */,
+				98DD99E9A3DFD1481188422E06F29C83 /* type_int.hpp */,
+				34E143175BFF3F71302DA9681C88C3C9 /* type_mat.hpp */,
+				714A9D26AE6BDF921551D038BAC2C936 /* type_mat2x2.hpp */,
+				15317E45A2EF9AE806015C2D29731C0C /* type_mat2x3.hpp */,
+				6B5DCF5F6E866286361416F1005E42C3 /* type_mat2x4.hpp */,
+				C329ADD10F3FC66D93FB5D54A3A7BECC /* type_mat3x2.hpp */,
+				C40267B02ECFC650016B433D54E8A06D /* type_mat3x3.hpp */,
+				5AA7801CD198A1157E47272E1E16BF7A /* type_mat3x4.hpp */,
+				A04214A4494750EE0D1561328D846FA3 /* type_mat4x2.hpp */,
+				45C5830847738E9253A1912DF3267160 /* type_mat4x3.hpp */,
+				3532E77CF319B6ED976E875B80E84623 /* type_mat4x4.hpp */,
+				3DE44E96E4D68351321D2F64F9FAD736 /* type_precision.hpp */,
+				C172971447655067731BF4D64F26C8EC /* type_ptr.hpp */,
+				0369E3DBB92683F9E63E8D5215E9D1C2 /* type_size.hpp */,
+				CB981AA8BFEA1BA30B20D81D754228C5 /* type_vec.hpp */,
+				789285D01A4ACDDE4323796FE2BB4199 /* type_vec1.hpp */,
+				BA272050AD60BC424E645BAD2878FF7B /* type_vec2.hpp */,
+				7E99B9F7ED7AA8A20A4AC0D20D9CDD6D /* type_vec3.hpp */,
+				E2ACF1168A6764E269BC70E0B63D7BE5 /* type_vec4.hpp */,
+				3EDAF55C914E38EA15E674D14D0D0D40 /* ulp.hpp */,
+				B390D9F5D841826EA21D6F4B1AC66799 /* ulp.hpp */,
+				CD34C3C4CBF7190329EB503CC0D34149 /* unsigned_int.hpp */,
+				608C2B3BE3C356EA8BF729EB01A7D7C2 /* vec1.hpp */,
+				F651B14DBFB4BA8BB86DA20756324E0E /* vector_access.hpp */,
+				66A9DFA80EFEC7CAA38415294873B487 /* vector_angle.hpp */,
+				82B18E4C8574E9DC3C938A24864C43AA /* vector_query.hpp */,
+				EDAA30CE6A9A79E1BD537AAF8CD59F15 /* verbose_operator.hpp */,
+				BA507583A8F510B247DB095441B53CD8 /* wrap.hpp */,
+				A3EEF9065F32C7C4732F158120B2CD52 /* xstream.hpp */,
+			);
+			name = glm;
+			path = glm;
 			sourceTree = "<group>";
 		};
 		DC8BCDA8BE654F661CE1B68AF54328E8 /* Pods-swiftPlayer */ = {
@@ -103,33 +432,61 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AE13C7585D10988FED4E0019192C92FB /* Headers */ = {
+		AB40F9B9808971A4E12A0E3EDF3AB6F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B276DD2CF348F516C8B396682702FBD4 /* Pods-swiftPlayer-umbrella.h in Headers */,
+				4F214C9F4475954F93FB63C2C4D2F00C /* Pods-swiftPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA70054D80C26D9669F0F6FF7927AAFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8CB15627CB67F16E25A4043E960E6B /* UriParser-cpp-umbrella.h in Headers */,
+				F850AF9C6AB63736F1057E623D74F112 /* UriParser.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		281FF0B9E622B70AB153CBF89B8FD513 /* Pods-swiftPlayer */ = {
+		74639B13537C289409C01DEFF5A038C7 /* Pods-swiftPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 131B6EB350A4A872633D920C00AE6438 /* Build configuration list for PBXNativeTarget "Pods-swiftPlayer" */;
+			buildConfigurationList = DEC2911272A2636F865F87F8825DA380 /* Build configuration list for PBXNativeTarget "Pods-swiftPlayer" */;
 			buildPhases = (
-				AE13C7585D10988FED4E0019192C92FB /* Headers */,
-				ED7CA285575093DBA4906D7E4E1F3AAA /* Sources */,
-				379CCD4D8F4AFB96A096065DCE642FA2 /* Frameworks */,
-				383E1603075418D9289DB56BF6BDA542 /* Resources */,
+				AB40F9B9808971A4E12A0E3EDF3AB6F4 /* Headers */,
+				0A84EF260CCACCAFF6B58DF2284E2E27 /* Sources */,
+				03B0EFCFC0E84E3D97C185975E5569FF /* Frameworks */,
+				1A7E94D41D7C7098FB85DD9E587CE794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1192366A52C65B218196D58CFA49970D /* PBXTargetDependency */,
+			);
+			name = "Pods-swiftPlayer";
+			productName = "Pods-swiftPlayer";
+			productReference = 403E6C2D30A48CA1034EC1882751BBF2 /* Pods_swiftPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F9610FAFB05DF1582E00195F98ACE6F /* UriParser-cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6AEE22E4F081E6E39D773AD1417947 /* Build configuration list for PBXNativeTarget "UriParser-cpp" */;
+			buildPhases = (
+				BA70054D80C26D9669F0F6FF7927AAFB /* Headers */,
+				122F12567B20D988CC15FDB39FA53CF4 /* Sources */,
+				F93D20293B628AAA9681A40E3752875C /* Frameworks */,
+				377D64D06BD51D2B17370F2B2F25C718 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-swiftPlayer";
-			productName = "Pods-swiftPlayer";
-			productReference = B3E481012E20F59573EA679ACD58284F /* Pods_swiftPlayer.framework */;
+			name = "UriParser-cpp";
+			productName = "UriParser-cpp";
+			productReference = B114FE03F52BDAD216B958F98A6F47A3 /* UriParser.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -143,24 +500,31 @@
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7699FC5D300974B4D737BEEBB267EF2A /* Products */;
+			productRefGroup = 8E03B7A00AE8B4722810AD21E77B9259 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				281FF0B9E622B70AB153CBF89B8FD513 /* Pods-swiftPlayer */,
+				74639B13537C289409C01DEFF5A038C7 /* Pods-swiftPlayer */,
+				9F9610FAFB05DF1582E00195F98ACE6F /* UriParser-cpp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		383E1603075418D9289DB56BF6BDA542 /* Resources */ = {
+		1A7E94D41D7C7098FB85DD9E587CE794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377D64D06BD51D2B17370F2B2F25C718 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -170,86 +534,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ED7CA285575093DBA4906D7E4E1F3AAA /* Sources */ = {
+		0A84EF260CCACCAFF6B58DF2284E2E27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				005B2829D1ECDB1393B884020F09C465 /* Pods-swiftPlayer-dummy.m in Sources */,
+				A543C59EE90686CD1FA0A6BFE2BA1C9E /* Pods-swiftPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122F12567B20D988CC15FDB39FA53CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83B7BCDB4DAD1686B9EF5A1D42C561 /* UriCodec.cpp in Sources */,
+				775E49D46C85E008C88D5E38D7F8A418 /* UriParser-cpp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1192366A52C65B218196D58CFA49970D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UriParser-cpp";
+			target = 9F9610FAFB05DF1582E00195F98ACE6F /* UriParser-cpp */;
+			targetProxy = AFBE391FA2A94759C177585E29B3A930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		0670BD39EE9844924536AC66DA267E53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44FA7D12C617C2BE5B68F6B4D49FDA8C /* Pods-swiftPlayer.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-swiftPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		28356CFC25CDC2CC6D6111A7BF29F1A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4EA510FB612C90F15520466D90D8D5F /* Pods-swiftPlayer.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-swiftPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		6E4B71A0075BB2C7CA3B47A60AE16010 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -305,11 +618,77 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		7AD5C2E034A3273E2AE4347DE5BB86E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F5B81EA579DD8FC0CC1B7D2FED5562 /* UriParser-cpp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UriParser-cpp/UriParser-cpp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UriParser-cpp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UriParser-cpp/UriParser-cpp.modulemap";
+				PRODUCT_MODULE_NAME = UriParser;
+				PRODUCT_NAME = UriParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D224E01A0C47FC78CB5E6EA6DC97D0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FA7D12C617C2BE5B68F6B4D49FDA8C /* Pods-swiftPlayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swiftPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		E81B6FFA0D15F91844D045AA4F979589 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -377,23 +756,99 @@
 			};
 			name = Debug;
 		};
+		E8CE91BFBCBB39A98CCB5E0F46C9EAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F5B81EA579DD8FC0CC1B7D2FED5562 /* UriParser-cpp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UriParser-cpp/UriParser-cpp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UriParser-cpp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UriParser-cpp/UriParser-cpp.modulemap";
+				PRODUCT_MODULE_NAME = UriParser;
+				PRODUCT_NAME = UriParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F70C2CADC8F79FF0AADF3DED46B7A1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EA510FB612C90F15520466D90D8D5F /* Pods-swiftPlayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swiftPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		131B6EB350A4A872633D920C00AE6438 /* Build configuration list for PBXNativeTarget "Pods-swiftPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0670BD39EE9844924536AC66DA267E53 /* Debug */,
-				28356CFC25CDC2CC6D6111A7BF29F1A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E81B6FFA0D15F91844D045AA4F979589 /* Debug */,
 				6E4B71A0075BB2C7CA3B47A60AE16010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC2911272A2636F865F87F8825DA380 /* Build configuration list for PBXNativeTarget "Pods-swiftPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D224E01A0C47FC78CB5E6EA6DC97D0C7 /* Debug */,
+				F70C2CADC8F79FF0AADF3DED46B7A1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6AEE22E4F081E6E39D773AD1417947 /* Build configuration list for PBXNativeTarget "UriParser-cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD5C2E034A3273E2AE4347DE5BB86E4 /* Debug */,
+				E8CE91BFBCBB39A98CCB5E0F46C9EAF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

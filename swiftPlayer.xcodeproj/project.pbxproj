@@ -199,6 +199,7 @@
 		A5652B7A1E5337830087B2C0 /* swiftPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A5FF792A229BBE1600834533 /* VideoCore */,
 				CB70C0491E53F91100AE1DC1 /* PlayerModule */,
 				A5652B7B1E5337830087B2C0 /* AppDelegate.swift */,
 				A5652B7D1E5337840087B2C0 /* ViewController.swift */,
@@ -219,6 +220,13 @@
 				A5A77220229B87D700D7E9B4 /* GPUImageTests_iOS.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FF792A229BBE1600834533 /* VideoCore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = VideoCore;
 			sourceTree = "<group>";
 		};
 		CB70C0491E53F91100AE1DC1 /* PlayerModule */ = {
@@ -242,6 +250,7 @@
 				A5652B751E5337830087B2C0 /* Frameworks */,
 				A5652B761E5337830087B2C0 /* Resources */,
 				A5A77226229B881800D7E9B4 /* Embed Frameworks */,
+				3437ED8E0B40D38BE8C1D6B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,6 +365,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3437ED8E0B40D38BE8C1D6B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UriParser-cpp/UriParser.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UriParser.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftPlayer/Pods-swiftPlayer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
