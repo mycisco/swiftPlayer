@@ -1,6 +1,7 @@
 import AVFoundation
 import CoreImage
 import UIKit
+import GPUImage
 
 protocol NetStreamDrawable: class {
 #if os(iOS) || os(macOS)
@@ -144,6 +145,11 @@ open class NetStream: NSObject {
                 onError?(error)
             }
         }
+    }
+    
+    open func attachGPUImageCamera(_ camera: Camera) {
+        self.mixer.session = camera.captureSession
+        
     }
 
     open func attachAudio(_ audio: AVCaptureDevice?, automaticallyConfiguresApplicationAudioSession: Bool = false, onError: ((_ error: NSError) -> Void)? = nil) {
